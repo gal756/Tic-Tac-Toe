@@ -66,7 +66,7 @@ function checkForGameOver() {
     //check for slant
     if (gameData[0][0] > 0 && gameData[0][0] === gameData[1][1] && gameData[1][1] == gameData[2][2])
         return gameData[0][0];
-    if (gameData[2][0] > 0 && gameData[2][0] === gameData[1][1] && gameData[1][1] == gameData[0][3])
+    if (gameData[2][0] > 0 && gameData[2][0] === gameData[1][1] && gameData[1][1] == gameData[0][2])
         return gameData[2][0];
     // no round left
     if (currentRound === 9) {
